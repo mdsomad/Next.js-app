@@ -1,15 +1,23 @@
 "use client";
-import React, { useState } from "react";
-import Header from "@/Components/Header";
-
+import React from "react";
 
 const page = () => {
-  const [user, setUser] = useState("Somad")
   return (
-    <>
-      <Header user={user}/>
-      {user}
-    </>
+    <div>
+      <h1>This is Home Page</h1>
+
+      {/* Not Use */}
+      {/* <a href="/About">About</a>
+      <a href="/Product">Product</a>
+      <a href="/Courses">Courses</a> */}
+
+      {/* Routing Use Header */}
+
+      {/* 
+      <Link href="/About">About</Link>
+      <Link href="/Product">Product</Link>
+      <Link href="/Courses">Courses</Link> */}
+    </div>
   );
 };
 
