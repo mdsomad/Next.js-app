@@ -1,3 +1,8 @@
+
+![Screenshot 2023-11-19 205358](https://github.com/mdsomad/Next.js-app/assets/103892160/831e6573-6d98-4d65-9a8e-c53668f3fa7a)
+![Screenshot 2023-11-19 205430](https://github.com/mdsomad/Next.js-app/assets/103892160/5273a05c-752f-492f-b960-6b6d3b0c1c71)
+![Screenshot 2023-11-19 205459](https://github.com/mdsomad/Next.js-app/assets/103892160/da5c4f22-4280-40d2-a747-8c452deeb14e)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
