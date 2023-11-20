@@ -1,17 +1,29 @@
 "use client";
-import Header from "@/Components/Header";
-import { MyContext } from "@/Helper/Context";
-import React, { useContext } from "react";
+import "./globals.css";
+import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const page = () => {
- const user = useContext(MyContext)
- console.log(user)
+  const notify = () =>
+    // toast("Login successful");
+    toast.success("🦄 Wow so easy!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
   return (
     <div>
-      {user}
-      <Header/>
+      <button onClick={notify}>Login</button>
+      <ToastContainer />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
