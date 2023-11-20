@@ -1,7 +1,10 @@
 
+![Screenshot 2023-11-20 212647](https://github.com/mdsomad/Next.js-app/assets/103892160/4251dbbc-56dc-4c3f-8311-b78f4d978fc2)
+![Screenshot 2023-11-20 212724](https://github.com/mdsomad/Next.js-app/assets/103892160/dcdd0c6f-4e9c-4e30-9840-ddfa0298f83e)
 
 
-React-toastify Website Link --> [https://fkhadra.github.io/react-toastify/introduction].
+
+ [React-toastify Website Link](https://fkhadra.github.io/react-toastify/introduction)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
